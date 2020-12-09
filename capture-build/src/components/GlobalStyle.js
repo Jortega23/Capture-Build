@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
   }
   
   button {
@@ -32,6 +33,18 @@ const GlobalStyle = createGlobalStyle`
   h3{
       color: white;
     }
+  h4{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#23d997;
+  }
+  a{
+    font-size: 1.1rem;
+  }
+  span{
+    font-weight: bold;
+    color:#23d997;
+  }
   p{
       padding: 3rem 0rem;
       color: #ccc;
